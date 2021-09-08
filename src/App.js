@@ -69,7 +69,7 @@ function App() {
      
       <Switch>
         
-          <Route exact path='/shop' >
+          <Route exact path='/shop/' >
           <Navbar totalItems={cart.total_items} ></Navbar>
           <Offer></Offer>
           <Products products={products} handleClick={handleClick} ></Products>

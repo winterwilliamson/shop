@@ -17,12 +17,12 @@ function Navbar({totalItems}) {
         <>
         <AppBar className={classes.appBar} position='fixed' color='inherint'>
             <Toolbar>
-            <Typography component={Link} to='/shop' className={classes.title} color='inherint' variant='h4'>
+            <Typography component={Link} to='/shop/' className={classes.title} color='inherint' variant='h4'>
                 <img src={logo} height='60px' alt='Commerce.js' className={classes.image}></img>
                 Winter Shopping
             </Typography>
             <div className={classes.grow}></div>
-          { location.pathname === '/shop' && (
+          { location.pathname === '/shop/' && (
 
             <div className={classes.button}>
             <IconButton component={Link} to='/shop/cart' aria-label='Show Cart Times' className={classes.icon} color='inherint'>
