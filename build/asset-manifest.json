@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/WinterShop/static/css/main.5b535f5f.chunk.css",
+    "main.js": "/WinterShop/static/js/main.cd5cbecc.chunk.js",
+    "main.js.map": "/WinterShop/static/js/main.cd5cbecc.chunk.js.map",
+    "runtime-main.js": "/WinterShop/static/js/runtime-main.64f80c40.js",
+    "runtime-main.js.map": "/WinterShop/static/js/runtime-main.64f80c40.js.map",
+    "static/js/2.3166fa72.chunk.js": "/WinterShop/static/js/2.3166fa72.chunk.js",
+    "static/js/2.3166fa72.chunk.js.map": "/WinterShop/static/js/2.3166fa72.chunk.js.map",
+    "static/js/3.01e05c21.chunk.js": "/WinterShop/static/js/3.01e05c21.chunk.js",
+    "static/js/3.01e05c21.chunk.js.map": "/WinterShop/static/js/3.01e05c21.chunk.js.map",
+    "index.html": "/WinterShop/index.html",
+    "static/css/main.5b535f5f.chunk.css.map": "/WinterShop/static/css/main.5b535f5f.chunk.css.map",
+    "static/js/2.3166fa72.chunk.js.LICENSE.txt": "/WinterShop/static/js/2.3166fa72.chunk.js.LICENSE.txt",
+    "static/media/commerce.457bea4f.png": "/WinterShop/static/media/commerce.457bea4f.png",
+    "static/media/offer.css": "/WinterShop/static/media/offer.f70f45aa.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.64f80c40.js",
+    "static/js/2.3166fa72.chunk.js",
+    "static/css/main.5b535f5f.chunk.css",
+    "static/js/main.cd5cbecc.chunk.js"
+  ]
+}
