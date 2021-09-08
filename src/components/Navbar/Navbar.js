@@ -17,7 +17,7 @@ function Navbar({totalItems}) {
         <>
         <AppBar className={classes.appBar} position='fixed' color='inherint'>
             <Toolbar>
-            <Typography component={Link} to='/' className={classes.title} color='inherint' variant='h4'>
+            <Typography component={Link} to='/shop' className={classes.title} color='inherint' variant='h4'>
                 <img src={logo} height='60px' alt='Commerce.js' className={classes.image}></img>
                 Winter Shopping
             </Typography>
