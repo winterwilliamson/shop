@@ -22,10 +22,10 @@ function Navbar({totalItems}) {
                 Winter Shopping
             </Typography>
             <div className={classes.grow}></div>
-          { location.pathname === '/' && (
+          { location.pathname === '/shop' && (
 
             <div className={classes.button}>
-            <IconButton component={Link} to='/cart' aria-label='Show Cart Times' className={classes.icon} color='inherint'>
+            <IconButton component={Link} to='/shop/cart' aria-label='Show Cart Times' className={classes.icon} color='inherint'>
 
                 <Badge badgeContent={totalItems} color='secondary'>
                     <ShoppingCart></ShoppingCart>

@@ -65,15 +65,17 @@ function App() {
   return (
     <Router>
        <div className="App">
-      <Navbar totalItems={cart.total_items} ></Navbar>
+      
      
       <Switch>
-          <Route exact path='/' >
+        
+          <Route exact path='/shop' >
+          <Navbar totalItems={cart.total_items} ></Navbar>
           <Offer></Offer>
           <Products products={products} handleClick={handleClick} ></Products>
          
           </Route>
-          <Route exact path='/cart'>
+          <Route exact path='/shop/cart'>
           <Cart cart={cart} removeCart={removeCart} handleUpdateCart={handleUpdateCart} emptyCart={emptyCart}></Cart>
           </Route>
           <Route exact path='/checkout'>
